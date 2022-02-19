@@ -15,7 +15,7 @@ var addTwoNumbers = function (l1, l2) {
   let result = new ListNode(0);
   let curr = result;
 
-  while (l1 || l2) {
+  while (l1 || l2 || carry) {
     let l1Val = l1 ? l1.val : 0;
     let l2Val = l2 ? l2.val : 0;
 
